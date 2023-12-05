@@ -1,10 +1,10 @@
 import { Helmet } from 'react-helmet-async';
 import Cover from '../../Shared/Cover/Cover';
-import menuImg from '../../../../../assets/menu/banner3.jpg'
-import pizzaImg from '../../../../../assets/menu/pizza-bg.jpg'
-import saladImg from '../../../../../assets/menu/salad-bg.jpg'
-import soupImg from '../../../../../assets/menu/soup-bg.jpg'
-import dessertImg from '../../../../../assets/menu/dessert-bg.jpeg'
+import menuImg from '../../../../../assets/menu/banner3.jpeg'
+import pizzaImg from '../../../../../assets/menu/suzuki (1).jpeg'
+import saladImg from '../../../../../assets/menu/Apache.jpeg'
+import soupImg from '../../../../../assets/menu/FZ.jpeg'
+import dessertImg from '../../../../../assets/menu/R-15.jpeg'
 import useMenu from '../../../../../hooks/useMenu';
 import SectionTitle from '../../../../../componets/SectionTitle/SectionTitle';
 import MenuCategory from '../MenuCategory/MenuCategory';
@@ -19,17 +19,17 @@ const Menu = () => {
     return (
         <div>
             <Helmet>
-                <title>Bistro Boss | Menu</title>               
+                <title>YAMAHA | Menu</title>               
             </Helmet>
             <Cover img={menuImg} title="Our menu"></Cover>
             <SectionTitle subHeading="Don't Miss" heading="Tody's Offer">
 
             </SectionTitle>
             <MenuCategory items={offered}></MenuCategory>
-            <MenuCategory items={dessert} title="dessert" img={dessertImg}></MenuCategory>
-            <MenuCategory items={pizza} title={"pizza"} Img={pizzaImg}></MenuCategory>
-            <MenuCategory items={salad} title={"salad"} Img={saladImg}></MenuCategory>
-            <MenuCategory items={soup} title={"soup"} Img={soupImg}></MenuCategory>
+            <MenuCategory items={dessert} title={"suzuki"} img={dessertImg}></MenuCategory>
+            <MenuCategory items={pizza} title={"Apache"} Img={pizzaImg}></MenuCategory>
+            <MenuCategory items={salad} title={"FZ"} Img={saladImg}></MenuCategory>
+            <MenuCategory items={soup} title={"R-15"} Img={soupImg}></MenuCategory>
             
         </div>
     );

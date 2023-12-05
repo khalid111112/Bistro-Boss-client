@@ -6,7 +6,7 @@ const NavBar = () => {
     const navOptions = <div className="text-lime-500">
     <li><Link to="/">Home</Link></li>
     <li><Link to="/menu">Our Menu</Link></li>
-    <li><Link to="/order/salad">Order Food</Link></li>
+    <li><Link to="/order/salad">Order Bike</Link></li>
     <li><Link to="login">Login</Link></li>
     </div>
     return (
@@ -21,7 +21,7 @@ const NavBar = () => {
                             {navOptions}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">Bistro Boss</a>
+                    <a className="btn btn-ghost text-xl">YAMAHA</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
